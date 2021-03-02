@@ -1,0 +1,429 @@
+*{
+    text-decoration: none !important;
+    list-style: none;
+    color: #c4c4c4;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 16px;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    color: #6D6D6D !important;
+}
+
+p {
+    color: #b8b8b8 !important;
+}
+
+/* HEADER CSS */
+
+header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-logo {
+    width: 80px;
+}
+
+.menu-nav li a:hover {
+    transition: ease-in-out 300ms;
+    color: #006494;
+}
+
+.btn-schedule {
+    width: 160px;
+    height: 50px;
+    background-color: #006494;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    box-shadow: 1px 1px 10px#979797;
+}
+
+.btn-schedule:hover {
+    background-color: #fff;
+    color: #006494;
+    border: 2px solid #006494;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    margin-bottom: 70px;
+    color: #6D6D6D;
+}
+
+.initial-section {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    margin-bottom: 100px;
+}
+
+.initial-section p {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+.btn-services {
+    width: 160px;
+    height: 50px;
+    background-color: #006494;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin-right: 50px;
+    box-shadow: 1px 1px 10px#979797;
+}
+
+.btn-services:hover {
+    background-color: #fff;
+    color: #006494;
+    border: 2px solid #006494;
+}
+
+.btn-localization {
+    width: 160px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #006494;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border: 2px solid #006494;
+    box-shadow: 1px 1px 10px#979797;
+}
+
+.btn-localization:hover {
+    background-color: #006494;
+    color: #fff;
+    border: 2px solid #006494;
+}
+
+
+.separator-btn {
+    display: flex;
+    flex-direction: row; 
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial-banner {
+    width: 500px;
+    margin-right: -60px;
+}
+
+/* ABOUT SECTION CSS */
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px 0 100px;
+    margin-bottom: 80px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.image-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-text-about {
+    font-weight: normal;
+}
+
+/* SERVICES SECTION CSS */
+
+.services-section {
+    width: 100%;
+    background-color: #006494;
+    height: 300px;
+    padding: 0 100px 0 100px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 182px;
+    height: 222px;
+    border-radius: 15px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center ;
+}
+
+.card p {
+    color: #6D6D6D !important;
+}
+
+/* BENEFITS SECTION CSS */
+
+.benefits-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px 0 100px;
+    margin-bottom: 80px;
+}
+
+.adjustment-cards-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.benefits-section h2 {
+    color: #6D6D6D !important;
+    margin-bottom: 80px;
+}
+
+.card-benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 30px;
+    
+}
+
+.card-benefits-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.icon-benefits {
+    width: 60px;
+    height: 60px;
+}
+
+.title-card-benefits {
+    color: #8b8b8b !important;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-card-benefits {
+    font-weight: normal;
+}
+
+/* CONTACTS AND LOCALIZATION SECTION CSS */
+
+.contacts-localization-section {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px 0 100px;
+}
+
+.contacts-localization-section p {
+    font-weight: normal;
+}
+
+.adjustment-contact-divs {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+   justify-content: flex-end;
+}
+
+.btn-whatsapp, .btn-email, .btn-instagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #006494;
+    color: #006494;
+    height: 50px;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px#979797;
+    width: 350px;
+    margin-right: 0;
+}
+
+.btn-whatsapp:hover, .btn-email:hover, .btn-instagram:hover{
+    background-color: #006494;
+    color: #fff;
+}
+
+/* FOOTER CSS */
+
+footer {
+    background-color: #006494;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a:hover {
+    border: 2px solid #f5f5f5;
+    padding: 10px;
+    
+}
+
+.inside-footer-div {
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.btn-localization-footer {
+    width: 160px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #006494 !important;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border: 2px solid #006494;
+}
+
+.btn-localization-footer:hover {
+    background-color: #006494;
+    color: #fff !important;
+    border: 2px solid #fff;
+}
+
+footer h2 {
+    margin-bottom: 0 !important;
+    color: #f5f5f5 !important;
+}
+
+footer p,
+footer a {
+    color: #f5f5f5 !important;
+    font-weight: normal;
+}
+
+.inside-footer-div img {
+    width: 50px;
+}
+
+.inside-logo-car {
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-ford {
+    width: 60px !important;
+}
+
+.footer-credits {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.footer-credits p {
+    font-weight: normal;
+    color: #a7a7a7 !important;
+}
+
+.footer-credits a img {
+    width: 20px;
+}
+
+.social-media-icons-dev {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+}
+
+.card-benefits-right {
+    display: none;
+}
+
+.btn-schedule-mobile {
+    display: none;
+}
+
